@@ -1,4 +1,5 @@
 import unittest
+from typing import List
 
 
 class SortTest(unittest.TestCase):
@@ -12,7 +13,7 @@ class SortTest(unittest.TestCase):
         self.assertSorted([], [])
 
     @staticmethod
-    def sort(input_array):
+    def sort(input_array: List[int]) -> List[int]:
         if input_array:
             return input_array
         return []

@@ -1,6 +1,6 @@
 
 
 class Bank(object):
-    standard_rate = 0.0025
+    standard_rate: float = 0.0025
 
 
