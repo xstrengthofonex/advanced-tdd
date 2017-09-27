@@ -7,3 +7,11 @@ Three Laws of TDD
 
 
 As test gets more specific code gets more generic
+
+Four Phases
+-----------
+
+* Arrange - load data structures.
+* Act - Perform the action we want to test
+* Assertion - Check the output
+* Annihilate - Put the system back to its original state
